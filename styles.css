@@ -1,0 +1,58 @@
+header {
+    background: linear-gradient(to right, #87CEEB, #06e8f8);
+    padding: 20px;
+    text-align: center;
+    position: center;
+}
+
+/* 2. Set the text color of h1 inside the header to white and give it a text shadow. */
+header h1 {
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* 3. Style the navigation */
+nav {
+    background-color: #02f7ff; /* White background */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0px 4px 6px rgb(3, 142, 255); /* Shadow effect */
+    padding: 10px; 
+    margin: 20px auto; 
+    max-width: 500px; 
+    border-bottom: 2px solid rgb(1, 128, 247);
+}
+
+nav ul {
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+    text-align: center; 
+}
+
+nav ul li {
+    display: inline; 
+    margin-right: 20px; 
+    font-size: 18px;
+}
+
+nav ul li:last-child {
+    margin-right: 0; 
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff; 
+    font-size: 16px; 
+    transition: color 0.3s ease; 
+}
+
+nav ul li a:hover {
+    color: #FF5733; 
+}
+footer{
+    text-align: center;
+}
+.box {
+    background-color: rgb(8, 218, 255); 
+    padding: 20px;
+}
